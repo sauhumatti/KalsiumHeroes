@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="568" height="600" xmlns="http://www.w3.org/2000/svg">
+<rect width="568" height="600" fill="#808080"/>
+
+<!-- Rogue Mage Hunter - Anti-magic specialist -->
+<defs>
+    <linearGradient id="hunterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#552d6e;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#2d193c;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="magicGlow">
+        <stop offset="0%" style="stop-color:#d896ff;stop-opacity:0.9" />
+        <stop offset="50%" style="stop-color:#b464ff;stop-opacity:0.7" />
+        <stop offset="100%" style="stop-color:#8c3cc8;stop-opacity:0.3" />
+    </radialGradient>
+</defs>
+
+<!-- Head -->
+<ellipse cx="284" cy="150" rx="64" ry="70" fill="#efd5c0" stroke="#b49682" stroke-width="3"/>
+
+<!-- Dark hair -->
+<ellipse cx="240" cy="105" rx="40" ry="35" fill="#1e1428" stroke="#0a050f" stroke-width="2"/>
+<ellipse cx="328" cy="105" rx="40" ry="35" fill="#1e1428" stroke="#0a050f" stroke-width="2"/>
+<rect x="200" y="90" width="168" height="30" fill="#1e1428"/>
+
+<!-- Intense eyes with magic glow -->
+<ellipse cx="255" cy="145" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<ellipse cx="313" cy="145" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<circle cx="255" cy="145" r="5" fill="#b464ff"/>
+<circle cx="313" cy="145" r="5" fill="#b464ff"/>
+<ellipse cx="255" cy="145" rx="15" ry="15" fill="url(#magicGlow)" opacity="0.3"/>
+<ellipse cx="313" cy="145" rx="15" ry="15" fill="url(#magicGlow)" opacity="0.3"/>
+
+<!-- Face scar -->
+<line x1="270" y1="145" x2="240" y2="170" stroke="#c89696" stroke-width="2"/>
+
+<!-- Grim mouth -->
+<path d="M 260 180 Q 284 175 308 180" fill="none" stroke="#785046" stroke-width="2"/>
+
+<!-- Armored coat -->
+<rect x="180" y="240" width="208" height="340" fill="url(#hunterGrad)" stroke="#140a1e" stroke-width="3"/>
+
+<!-- Chest armor plate -->
+<path d="M 230 260 L 284 245 L 338 260 L 330 400 L 238 400 Z"
+      fill="#b4b4be" stroke="#787882" stroke-width="3"/>
+
+<!-- Magical runes on armor -->
+<g opacity="0.8">
+    <circle cx="260" cy="285" r="8" fill="none" stroke="#b464ff" stroke-width="2"/>
+    <line x1="260" y1="277" x2="260" y2="293" stroke="#b464ff" stroke-width="1"/>
+    <line x1="252" y1="285" x2="268" y2="285" stroke="#b464ff" stroke-width="1"/>
+
+    <circle cx="308" cy="285" r="8" fill="none" stroke="#b464ff" stroke-width="2"/>
+    <line x1="308" y1="277" x2="308" y2="293" stroke="#b464ff" stroke-width="1"/>
+    <line x1="300" y1="285" x2="316" y2="285" stroke="#b464ff" stroke-width="1"/>
+
+    <circle cx="284" cy="320" r="8" fill="none" stroke="#b464ff" stroke-width="2"/>
+    <line x1="284" y1="312" x2="284" y2="328" stroke="#b464ff" stroke-width="1"/>
+    <line x1="276" y1="320" x2="292" y2="320" stroke="#b464ff" stroke-width="1"/>
+
+    <circle cx="260" cy="355" r="8" fill="none" stroke="#b464ff" stroke-width="2"/>
+    <line x1="260" y1="347" x2="260" y2="363" stroke="#b464ff" stroke-width="1"/>
+    <line x1="252" y1="355" x2="268" y2="355" stroke="#b464ff" stroke-width="1"/>
+
+    <circle cx="308" cy="355" r="8" fill="none" stroke="#b464ff" stroke-width="2"/>
+    <line x1="308" y1="347" x2="308" y2="363" stroke="#b464ff" stroke-width="1"/>
+    <line x1="300" y1="355" x2="316" y2="355" stroke="#b464ff" stroke-width="1"/>
+</g>
+
+<!-- Belt with pouches -->
+<rect x="190" y="430" width="188" height="30" fill="#552d6e" stroke="#281432" stroke-width="2"/>
+<rect x="210" y="445" width="30" height="35" fill="#552d6e" stroke="#281432" stroke-width="2"/>
+<rect x="328" y="445" width="30" height="35" fill="#552d6e" stroke="#281432" stroke-width="2"/>
+
+<!-- Arms -->
+<ellipse cx="170" cy="410" rx="30" ry="90" fill="url(#hunterGrad)" stroke="#140a1e" stroke-width="3"/>
+<ellipse cx="398" cy="410" rx="30" ry="90" fill="url(#hunterGrad)" stroke="#140a1e" stroke-width="3"/>
+
+<!-- Armored gauntlets -->
+<rect x="145" y="460" width="40" height="50" fill="#b4b4be" stroke="#787882" stroke-width="2"/>
+<rect x="383" y="460" width="40" height="50" fill="#b4b4be" stroke="#787882" stroke-width="2"/>
+
+<!-- Glowing magic suppression on right hand -->
+<ellipse cx="403" cy="478" rx="28" ry="28" fill="url(#magicGlow)" opacity="0.6"/>
+<rect x="383" y="460" width="40" height="50" fill="#b4b4be" stroke="#787882" stroke-width="2"/>
+
+<!-- Text label -->
+<text x="284" y="565" font-family="Arial, sans-serif" font-size="14" fill="#b464ff" text-anchor="middle" font-weight="bold">ROGUE MAGE HUNTER</text>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="568" height="600" xmlns="http://www.w3.org/2000/svg">
+<rect width="568" height="600" fill="#808080"/>
+
+<!-- Lone Ranger - Precision marksman -->
+<defs>
+    <linearGradient id="rangerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#6b8e23;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#556b2f;stop-opacity:1" />
+    </linearGradient>
+</defs>
+
+<!-- Hood -->
+<path d="M 200 60 L 284 40 L 368 60 L 368 200 L 284 220 L 200 200 Z"
+      fill="#556b2f" stroke="#323c1e" stroke-width="3"/>
+
+<!-- Face -->
+<ellipse cx="284" cy="155" rx="54" ry="55" fill="#efd5c0" stroke="#b49682" stroke-width="3"/>
+
+<!-- Eyes - sharp -->
+<ellipse cx="260" cy="145" rx="10" ry="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<ellipse cx="308" cy="145" rx="10" ry="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<circle cx="260" cy="145" r="5" fill="#46641e"/>
+<circle cx="308" cy="145" r="5" fill="#46641e"/>
+
+<!-- Serious mouth -->
+<line x1="260" y1="175" x2="308" y2="175" stroke="#785046" stroke-width="2"/>
+
+<!-- Cloak -->
+<rect x="170" y="240" width="228" height="340" fill="url(#rangerGrad)" stroke="#3c5a19" stroke-width="3"/>
+
+<!-- Leather chest piece -->
+<ellipse cx="284" cy="325" rx="74" ry="75" fill="#8b5a2b" stroke="#5a3c1e" stroke-width="3"/>
+
+<!-- Belt/strap -->
+<rect x="200" y="380" width="168" height="30" fill="#8b5a2b" stroke="#5a3c1e" stroke-width="2"/>
+<rect x="270" y="260" width="28" height="120" fill="#8b5a2b" stroke="#5a3c1e" stroke-width="2"/>
+
+<!-- Buckle -->
+<rect x="265" y="385" width="38" height="20" fill="#d2b48c" stroke="#967850" stroke-width="2"/>
+
+<!-- Arms -->
+<ellipse cx="160" cy="420" rx="30" ry="80" fill="url(#rangerGrad)" stroke="#3c5a19" stroke-width="3"/>
+<ellipse cx="408" cy="420" rx="30" ry="80" fill="url(#rangerGrad)" stroke="#3c5a19" stroke-width="3"/>
+
+<!-- Gloved hands -->
+<ellipse cx="155" cy="490" rx="20" ry="20" fill="#8b5a2b" stroke="#5a3c1e" stroke-width="2"/>
+<ellipse cx="413" cy="490" rx="20" ry="20" fill="#8b5a2b" stroke="#5a3c1e" stroke-width="2"/>
+
+<!-- Text label -->
+<text x="284" y="570" font-family="Arial, sans-serif" font-size="16" fill="#556b2f" text-anchor="middle" font-weight="bold">LONE RANGER</text>
+</svg>
