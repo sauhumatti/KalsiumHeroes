@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <radialGradient id="bgGrad">
+        <stop offset="0%" style="stop-color:#1a2d1a;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+</defs>
+<rect width="128" height="128" fill="url(#bgGrad)" stroke="#6b8e23" stroke-width="3"/>
+
+<!-- Hand pushing -->
+<path d="M 40 64 L 55 50 L 60 52 L 63 48 L 68 50 L 70 46 L 75 48 L 75 75 L 40 75 Z"
+      fill="#8b5a2b" stroke="#5a3c1e" stroke-width="2"/>
+
+<!-- Force wave -->
+<path d="M 80 50 Q 95 64 80 78" fill="none" stroke="#6b8e23" stroke-width="4" stroke-linecap="round"/>
+<path d="M 90 45 Q 105 64 90 83" fill="none" stroke="#6b8e23" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+<path d="M 100 40 Q 115 64 100 88" fill="none" stroke="#6b8e23" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+<!-- Impact particles -->
+<circle cx="85" cy="55" r="3" fill="#9acd32" opacity="0.8"/>
+<circle cx="95" cy="64" r="4" fill="#9acd32" opacity="0.8"/>
+<circle cx="88" cy="73" r="3" fill="#9acd32" opacity="0.8"/>
+
+<!-- Direction arrow -->
+<path d="M 105 64 L 115 54 L 115 74 Z" fill="#6b8e23" opacity="0.7"/>
+
+</svg>

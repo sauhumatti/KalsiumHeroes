@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <radialGradient id="bgGrad">
+        <stop offset="0%" style="stop-color:#1a0a2d;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+</defs>
+<rect width="128" height="128" fill="url(#bgGrad)" stroke="#b464ff" stroke-width="3"/>
+
+<!-- Target silhouette -->
+<ellipse cx="64" cy="45" rx="15" ry="18" fill="#3a2050" stroke="#b464ff" stroke-width="2" opacity="0.7"/>
+<rect x="50" y="63" width="28" height="35" fill="#3a2050" stroke="#b464ff" stroke-width="2" opacity="0.7"/>
+<ellipse cx="54" cy="98" rx="6" ry="15" fill="#3a2050" stroke="#b464ff" stroke-width="2" opacity="0.7"/>
+<ellipse cx="74" cy="98" rx="6" ry="15" fill="#3a2050" stroke="#b464ff" stroke-width="2" opacity="0.7"/>
+
+<!-- Magical tracking marks -->
+<circle cx="64" cy="45" r="8" fill="none" stroke="#b464ff" stroke-width="2"/>
+<line x1="64" y1="37" x2="64" y2="25" stroke="#b464ff" stroke-width="2"/>
+<line x1="64" y1="53" x2="64" y2="65" stroke="#b464ff" stroke-width="2"/>
+<line x1="56" y1="45" x2="44" y2="45" stroke="#b464ff" stroke-width="2"/>
+<line x1="72" y1="45" x2="84" y2="45" stroke="#b464ff" stroke-width="2"/>
+
+<!-- Tracking particles -->
+<circle cx="35" cy="30" r="3" fill="#b464ff" opacity="0.8"/>
+<circle cx="93" cy="35" r="2.5" fill="#b464ff" opacity="0.8"/>
+<circle cx="30" cy="70" r="3" fill="#b464ff" opacity="0.8"/>
+<circle cx="98" cy="75" r="2.5" fill="#b464ff" opacity="0.8"/>
+<circle cx="40" cy="105" r="3" fill="#b464ff" opacity="0.8"/>
+<circle cx="88" cy="108" r="3" fill="#b464ff" opacity="0.8"/>
+
+<!-- Tracking lines converging on target -->
+<line x1="35" y1="30" x2="54" y2="40" stroke="#b464ff" stroke-width="1" opacity="0.5"/>
+<line x1="93" y1="35" x2="74" y2="42" stroke="#b464ff" stroke-width="1" opacity="0.5"/>
+<line x1="30" y1="70" x2="50" y2="60" stroke="#b464ff" stroke-width="1" opacity="0.5"/>
+<line x1="98" y1="75" x2="78" y2="65" stroke="#b464ff" stroke-width="1" opacity="0.5"/>
+
+</svg>

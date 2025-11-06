@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <radialGradient id="bgGrad">
+        <stop offset="0%" style="stop-color:#2d2d1a;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+</defs>
+<rect width="128" height="128" fill="url(#bgGrad)" stroke="#d4af37" stroke-width="3"/>
+
+<!-- Eye shape -->
+<ellipse cx="64" cy="64" rx="45" ry="30" fill="#ffffff" stroke="#2a2a2a" stroke-width="3"/>
+
+<!-- Iris -->
+<circle cx="64" cy="64" r="18" fill="#d4af37" stroke="#b8930b" stroke-width="2"/>
+
+<!-- Pupil -->
+<circle cx="64" cy="64" r="10" fill="#1a1a1a"/>
+
+<!-- Highlight -->
+<circle cx="58" cy="58" r="4" fill="#ffffff" opacity="0.8"/>
+
+<!-- Observant marks around eye -->
+<path d="M 25 50 Q 20 64 25 78" fill="none" stroke="#d4af37" stroke-width="2"/>
+<path d="M 103 50 Q 108 64 103 78" fill="none" stroke="#d4af37" stroke-width="2"/>
+<line x1="40" y1="35" x2="50" y2="45" stroke="#d4af37" stroke-width="2"/>
+<line x1="88" y1="35" x2="78" y2="45" stroke="#d4af37" stroke-width="2"/>
+
+</svg>
